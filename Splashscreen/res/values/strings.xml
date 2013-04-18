@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InstaBay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="internet_lost">Lost internet connection</string>
+	<string name="wait_message">Please wait...</string>
+	<string name="error_no_connection">No internet connection on your device. Please try again later</string>
+	<string name="error_response">Error in connecting to server</string>
+	<string name="fields_empty">The fields cannot be empty</string>
+	<string name="confirm_registration">Registration is success. Please check to you email for confirmation process</string>
+	<string name="auth_success">Authentication Success</string>
+	<string name="auth_failed">Authentication Failed – Invalid Email or Password</string>
+	<string name="regis_success">Registration Success</string>
+	<string name="regis_failed">Registration Failed – Duplicate Email</string>
+	<string name="reset_pass_success">Request Reset Password Success</string>
+	<string name="system_error">System Error or Exception Occurred</string>
+	<string name="btn_login">Login</string>
+</resources>

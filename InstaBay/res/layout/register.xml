@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="top|center"
+            android:paddingTop="10dp"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="12"
+            android:text="InstaBay"
+            android:textColor="@android:color/white"
+            android:textSize="38sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="12"
+            android:text="e-Commerce for Everyone"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edtRegisterFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:inputType="textCapWords"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edtRegisterLastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:inputType="textCapWords"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edtRegisterEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edtLoginPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:password="true"
+            android:singleLine="true" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnRegisterSubmit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/txtRegisterTerm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Term And Condition"
+            android:textSize="@dimen/content" />
+    </LinearLayout>
+
+</RelativeLayout>
